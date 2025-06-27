@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "kode": "MK001",
+    "nama": "Pemrograman Web",
+    "sks": 3
+  },
+  {
+    "id": 2,
+    "kode": "MK002",
+    "nama": "Struktur Data",
+    "sks": 4
+  },
+  {
+    "id": 3,
+    "kode": "MK003",
+    "nama": "Basis Data",
+    "sks": 3
+  },
+  {
+    "id": 4,
+    "kode": "MK004",
+    "nama": "Jaringan Komputer",
+    "sks": 3
+  },
+  {
+    "id": 5,
+    "kode": "MK005",
+    "nama": "Kecerdasan Buatan",
+    "sks": 4
+  },
+  {
+    "id": 6,
+    "kode": "MK006",
+    "nama": "Sistem Operasi",
+    "sks": 3
+  },
+  {
+    "id": 7,
+    "kode": "MK007",
+    "nama": "Pemrograman Berorientasi Objek",
+    "sks": 4
+  },
+  {
+    "id": 8,
+    "kode": "MK008",
+    "nama": "Keamanan Informasi",
+    "sks": 2
+  },
+  {
+    "id": 9,
+    "kode": "MK009",
+    "nama": "Manajemen Proyek TI",
+    "sks": 2
+  },
+  {
+    "id": 10,
+    "kode": "MK010",
+    "nama": "Analisis dan Desain Sistem",
+    "sks": 3
+  },
+  {
+    "id": 11,
+    "kode": "MK011",
+    "nama": "Pemrograman Mobile",
+    "sks": 3
+  },
+  {
+    "id": 12,
+    "kode": "MK012",
+    "nama": "Data Mining dan Data Warehouse",
+    "sks": 3
+  },
+  {
+    "id": 13,
+    "kode": "MK013",
+    "nama": "Interaksi Manusia dan Komputer",
+    "sks": 2
+  },
+  {
+    "id": 14,
+    "kode": "MK014",
+    "nama": "Pengembangan Game",
+    "sks": 3
+  },
+  {
+    "id": 15,
+    "kode": "MK015",
+    "nama": "Komputasi Awan",
+    "sks": 3
+  },
+  {
+    "id": 16,
+    "kode": "MK016",
+    "nama": "Rekayasa Perangkat Lunak",
+    "sks": 4
+  },
+  {
+    "id": 17,
+    "kode": "MK017",
+    "nama": "Pengolahan Citra Digital",
+    "sks": 3
+  },
+  {
+    "id": 18,
+    "kode": "MK018",
+    "nama": "Etika Profesi TI",
+    "sks": 2
+  },
+  {
+    "id": 19,
+    "kode": "MK019",
+    "nama": "Sistem Terdistribusi",
+    "sks": 3
+  },
+  {
+    "id": 20,
+    "kode": "MK020",
+    "nama": "Pembelajaran Mesin (Machine Learning)",
+    "sks": 4
+  },
+  {
+    "id": 21,
+    "kode": "MK021",
+    "nama": "Kriptografi",
+    "sks": 3
+  },
+  {
+    "id": 22,
+    "kode": "MK022",
+    "nama": "Pengujian Perangkat Lunak",
+    "sks": 2
+  }
+]

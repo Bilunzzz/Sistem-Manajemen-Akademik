@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "nama": "Dr. Siti Aminah, M.Kom.",
+    "max_sks": 12
+  },
+  {
+    "id": "2",
+    "nama": "Dr. Bambang Wijoyo, M.T.",
+    "max_sks": 10
+  },
+  {
+    "id": "3",
+    "nama": "Prof. Dr. Ir. Udin Sedunia, S.T.",
+    "max_sks": 14
+  },
+  {
+    "id": "4",
+    "nama": "Vina Lestari, S.Kom., M.Cs.",
+    "max_sks": 16
+  },
+  {
+    "id": "5",
+    "nama": "Wawan Setiawan, S.T., M.Eng.",
+    "max_sks": 12
+  },
+  {
+    "id": "6",
+    "nama": "Dr. Retno Wulandari, M.Sc.",
+    "max_sks": 10
+  },
+  {
+    "id": "7",
+    "nama": "Agus Purnomo, S.Kom., M.Kom.",
+    "max_sks": 14
+  }
+]
