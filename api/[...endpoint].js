@@ -1,7 +1,4 @@
-import fs from "fs";
-import path from "path";
-
-// Simulasi database dengan data yang ada
+// Vercel Serverless API - Database simulation
 const db = {
   dosen: [
     { id: "1", nama: "Dr. Siti Aminah, M.Kom.", max_sks: 12 },
@@ -114,7 +111,7 @@ const db = {
   },
 };
 
-export default function handler(req, res) {
+function handler(req, res) {
   // Enable CORS
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
@@ -235,3 +232,5 @@ export default function handler(req, res) {
     return res.status(500).json({ error: "Internal server error" });
   }
 }
+
+module.exports = handler;
