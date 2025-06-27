@@ -152,8 +152,8 @@ function handler(req, res) {
             let result = [...data];
 
             // Special handling for user authentication by email
-            if (endpoint === 'user' && email) {
-              const user = result.find(user => user.email === email);
+            if (endpoint === "user" && email) {
+              const user = result.find((user) => user.email === email);
               return res.status(200).json(user ? [user] : []);
             }
 
@@ -235,12 +235,12 @@ function handler(req, res) {
         return res.status(405).json({ error: "Method not allowed" });
     }
   } catch (error) {
-    console.error('API Error:', error);
-    return res.status(500).json({ 
-      error: "Internal server error", 
+    console.error("API Error:", error);
+    return res.status(500).json({
+      error: "Internal server error",
       message: error.message,
       endpoint: query.endpoint,
-      method: req.method
+      method: req.method,
     });
   }
 }

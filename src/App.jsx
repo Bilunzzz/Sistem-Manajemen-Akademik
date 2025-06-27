@@ -19,6 +19,8 @@ const ProtectedRoute = ({ children }) => {
 };
 
 const App = () => {
+  console.log("App component rendering...");
+  
   return (
     <>
       <BrowserRouter>
