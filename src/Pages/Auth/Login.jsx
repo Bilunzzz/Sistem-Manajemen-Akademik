@@ -27,7 +27,7 @@ const Login = () => {
       setUser(loggedInUser);
       toastSuccess("Login berhasil!");
     } catch (err) {
-      toastError(err.message || "Login gagal!");
+      console.error(err.message || "Login gagal!");
     } finally {
       setLoading(false);
     }
