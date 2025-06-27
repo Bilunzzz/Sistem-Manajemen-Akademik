@@ -5,7 +5,7 @@ import {
   updateMatkul,
   deleteMatkul,
 } from "@/Utils/Apis/MatkulApi"; // Pastikan path ini benar
-import { toastSuccess, toastError } from "@/Utils/Helpers/ToastHelpers"; // Pastikan path ini benar
+import { toastSuccess, toastError } from "@/Utils/Helpers/toastHelpers"; // Pastikan path ini benar
 
 // Hook untuk mengambil semua mata kuliah
 export const useMataKuliah = (params = {}) =>

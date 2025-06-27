@@ -2,7 +2,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getDosen } from "@/Utils/Apis/DosenApi";
-import { toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastError } from "@/Utils/Helpers/toastHelpers";
 
 const DosenDetail = () => {
   const { id } = useParams();

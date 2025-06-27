@@ -6,7 +6,7 @@ import {
   updateMahasiswa,
   deleteMahasiswa,
 } from "@/Utils/Apis/MahasiswaApi";
-import { toastSuccess, toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastSuccess, toastError } from "@/Utils/Helpers/toastHelpers";
 
 // Ambil semua mahasiswa
 export const useMahasiswa = () =>
