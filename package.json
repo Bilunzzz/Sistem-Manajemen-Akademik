@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "merge": "node merge-json.cjs",
-    "serve-db": "npm run merge && json-server --watch db.json --port 3001",
+    "serve-db": "npm run merge && json-server --watch db.json --port 3002",
     "start": "concurrently \"npm run dev\" \"npm run serve-db\"",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
