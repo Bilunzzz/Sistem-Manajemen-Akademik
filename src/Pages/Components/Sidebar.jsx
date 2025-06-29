@@ -52,23 +52,26 @@ const Sidebar = () => {
     <div className="w-64 h-screen bg-blue-900 text-white p-4 flex flex-col">
       <h2 className="text-xl font-semibold mb-4">Admin</h2>
       <ul className="flex-1">
-        {menuItems.map(
-          (item) =>
-            user?.permission.includes(item.permission) && (
-              <li key={item.to} className="mb-2">
-                <NavLink
-                  to={item.to}
-                  className={({ isActive }) =>
-                    isActive
-                      ? "p-2 block bg-blue-700 rounded"
-                      : "p-2 block hover:bg-blue-800 rounded"
-                  }
-                >
-                  {item.label}
-                </NavLink>
-              </li>
-            )
-        )}
+        {menuItems.map((item) => {
+          // Debug: cek permission
+          const hasPermission = user?.permission?.includes(item.permission) || user?.permission?.includes("*");
+          console.log(`Item: ${item.label}, Permission: ${item.permission}, User permissions:`, user?.permission, `Has access: ${hasPermission}`);
+          
+          return hasPermission ? (
+            <li key={item.to} className="mb-2">
+              <NavLink
+                to={item.to}
+                className={({ isActive }) =>
+                  isActive
+                    ? "p-2 block bg-blue-700 rounded"
+                    : "p-2 block hover:bg-blue-800 rounded"
+                }
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ) : null;
+        })}
       </ul>
 
       <button
