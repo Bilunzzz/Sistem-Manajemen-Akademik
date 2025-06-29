@@ -1,21 +1,11 @@
 import axios from "axios";
 
-// Determine base URL based on environment
-const getBaseURL = () => {
-  if (import.meta.env.DEV) {
-    // Development mode - use json-server
-    return "http://localhost:3002";
-  } else {
-    // Production mode - use Vercel API
-    return "/api";
-  }
-};
+// Ini akan secara otomatis menggunakan '/api' saat di-deploy,
+// dan alamat lokal saat development.
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3002"; // Sesuaikan port lokal jika perlu
 
 const AxiosInstance = axios.create({
-  baseURL: getBaseURL(),
-  headers: {
-    "Content-Type": "application/json",
-  },
+  baseURL: API_URL,
 });
 
 export default AxiosInstance;
